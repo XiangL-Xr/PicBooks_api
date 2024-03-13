@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api接口测试页面</title>
+    <style type="text/css">
+        p input{
+            width: 170px;
+            margin-right: 70px;
+        }
+        p input[type="text"]{
+            width: 160px;
+        }
+        a {
+            text-decoration: none;
+            color: #f30c0c;
+        }
+    </style>
+</head>
+
+<body>
+    <p>-----------------------------------------------------------------------------------------------------------------------------------------</p>
+    <label style="border-bottom: blue 4px double;"> <b> >> API测试界面</b></label>
+
+    <div>
+        <form action="/api/data/get_cover" method="post" enctype="application/x-www-form-urlencoded">
+            <p>图片类别 <input type="text" size="20" name="level"/></p>
+            <p>图片ID <input type="text" size="20" name="id"/></p>
+            <br>
+            <input type="submit" value="显示" style="margin-top:15px;">
+            <p>-----------------------------------------------------------------------------------------------------------------------------------------</p>
+     
+        </form>
+    </div>
+
+ 
+</body>
+</html>
